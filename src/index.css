@@ -386,6 +386,10 @@ a {
   cursor: pointer;
 }
 
+.carousel-image{
+  border: 2px solid red;
+  height: 500px;
+}
 #carouselExampleCaptions .carousel-inner img {
   height: 100%;
   width: auto;
