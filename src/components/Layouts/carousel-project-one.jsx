@@ -39,31 +39,6 @@ function Hibob() {
           <p>This page is used to add new device into website so that the client can monitor the device from the website</p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <ClientMain text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <AdminMain text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <AdminAddNew text="Fourth slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item> */}
     </Carousel>
   );
 }

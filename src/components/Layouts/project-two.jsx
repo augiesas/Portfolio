@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import React, { Component } from "react";
-import Hibob from "../Layouts/carousel-project-one";
-import ClientMain from "../../Assets/hibob/main.png";
+import ApotekU from "../Layouts/carousel-project-two";
+import ClientMain from "../../Assets/apoteku/main.png";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -13,10 +13,10 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header>
-        <Hibob />
+        <ApotekU />
       </Modal.Header>
       <Modal.Body>
-        <h4>HiBob</h4>
+        <h4>ApotekU</h4>
         <p>
           Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
           dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
@@ -50,7 +50,7 @@ function ProjectOne() {
             </div>
           </div>
           <div class="card-body text-success">
-            <h5 class="card-title">HiBob</h5>
+            <h5 class="card-title">ApotekU</h5>
             <p class="card-text">
               a website that is used to monitor a collection of IoT devices
               capable of capturing room-temperature data

@@ -17,7 +17,7 @@ code {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Sansita', sans-serif !important;
 }
 
 a {
@@ -386,10 +386,41 @@ a {
   cursor: pointer;
 }
 
-.carousel-image{
-  border: 2px solid red;
-  height: 500px;
+.middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card-header {
+  position: relative;
+}
+
+.card-header:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#openCarouselImage:hover {
+  opacity: 0.2;
+}
+
+.text {
+  color: white;
+  font-size: 32px;
+}
+
+
 #carouselExampleCaptions .carousel-inner img {
   height: 100%;
   width: auto;
@@ -419,10 +450,6 @@ a {
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-#openCarouselImage:hover {
-  cursor: pointer;
 }
 
 .card-footer {

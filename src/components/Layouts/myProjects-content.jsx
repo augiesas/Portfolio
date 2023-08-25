@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectOne from "../Layouts/project-one.jsx";
+import ProjectTwo from "../Layouts/project-two.jsx";
 
 class MainContent extends Component {
   render() {
@@ -13,7 +14,7 @@ class MainContent extends Component {
         <div id="content-card" class="card-area">
           <div class="row row-cols-2 g-3">
             <ProjectOne />
-            <ProjectOne />
+            <ProjectTwo />
             <ProjectOne />            
             <ProjectOne />            
           </div>
