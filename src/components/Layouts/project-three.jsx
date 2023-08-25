@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import React, { Component } from "react";
-import Hibob from "../Layouts/carousel-project-one";
-import ClientMain from "../../Assets/hibob/main.png";
+import ApotekU from "./carousel-project-two";
+import ClientMain from "../../Assets/apoteku/main.png";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -13,18 +13,14 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header>
-        <Hibob />
+        <ApotekU />
       </Modal.Header>
       <Modal.Body>
-        <h4>HiBob</h4>
+        <h4>ApotekU</h4>
         <p>
-          This is a website that is used to monitor a collection of IoT devices
-          capable of capturing room-temperature data.
-          <br />
-          Using this website, administrators can add, modify, and delete IoT
-          devices and room plans. On the client side, the client can monitor
-          every room temperature using IoT devices that are displayed in the
-          website.
+          This is an e-commerce website to buy and sell medicines. On the client
+          side, users can order medicines. On the administrator side, the admin
+          can add, modify, and delete medicines.
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -54,14 +50,17 @@ function ProjectOne() {
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">HiBob</h5>
+            <h5 class="card-title">ApotekU</h5>
             <p class="card-text">
-              This is a website that is used to monitor a collection of IoT
-              devices capable of capturing room-tem<span id="dots">... </span>
+              This is an e-commerce website to buy and sell medicines. On the
+              client side, users can order med<span id="dots">... </span>
               <a href="#" id="readMore" onClick={() => setModalShow(true)}>
                 Read More
               </a>
             </p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="https://github.com/augiesas/ApotikU_Project_WFP.git" target="_blank">Find in GitHub</a>
           </div>
         </div>
       </div>

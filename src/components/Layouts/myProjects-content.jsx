@@ -14,9 +14,7 @@ class MainContent extends Component {
         <div id="content-card" class="card-area">
           <div class="row row-cols-2 g-3">
             <ProjectOne />
-            <ProjectTwo />
-            <ProjectOne />            
-            <ProjectOne />            
+            <ProjectTwo />          
           </div>
         </div>
         <div class="gradient-overlay"></div>

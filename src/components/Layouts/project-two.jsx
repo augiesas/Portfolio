@@ -18,9 +18,9 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <h4>ApotekU</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          This is an e-commerce website to buy and sell medicines. On the client
+          side, users can order medicines. On the administrator side, the admin
+          can add, modify, and delete medicines.
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -38,8 +38,8 @@ function ProjectOne() {
   return (
     <>
       <div class="col">
-        <div class="card border-success mb-3" style={myStyle}>
-          <div class="card-header bg-transparent border-success">
+        <div class="card mb-3" style={myStyle}>
+          <div class="card-header bg-transparent">
             <img
               src={ClientMain}
               class="card-img-top"
@@ -49,12 +49,18 @@ function ProjectOne() {
               <div class="text">Click Me</div>
             </div>
           </div>
-          <div class="card-body text-success">
+          <div class="card-body">
             <h5 class="card-title">ApotekU</h5>
             <p class="card-text">
-              a website that is used to monitor a collection of IoT devices
-              capable of capturing room-temperature data
+              This is an e-commerce website to buy and sell medicines. On the
+              client side, users can order med<span id="dots">... </span>
+              <a href="#" id="readMore" onClick={() => setModalShow(true)}>
+                Read More
+              </a>
             </p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="https://github.com/augiesas/ApotikU_Project_WFP.git" target="_blank">Find in GitHub</a>
           </div>
         </div>
       </div>

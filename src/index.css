@@ -461,3 +461,13 @@ a {
 .card-footer a {
   color: blue !important;
 }
+
+#readMore {
+  padding-left: 4px;
+  color: gray !important;
+}
+
+.card,
+.card-header {
+  border: 1px solid #755800 !important;
+}
