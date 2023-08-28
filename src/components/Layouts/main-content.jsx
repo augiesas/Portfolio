@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Photo from "../../Assets/Photo.svg"
+import Photo from "../../Assets/Photo-Frame.png"
 
 class MainContent extends Component {
   render() {
@@ -15,7 +15,8 @@ class MainContent extends Component {
         <div className="paragraph">
           <h2>I'm Augie </h2>
           <br></br>
-          <h2>I'm a Full Stack Developer</h2>
+          <h3>I'm a fresh graduate of Information Technology</h3>
+          <h3>focused on Data Science and Artificial Intelligence</h3>
         </div>
       </div>
     );

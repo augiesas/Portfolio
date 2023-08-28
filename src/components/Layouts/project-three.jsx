@@ -2,33 +2,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import React, { Component } from "react";
 import ApotekU from "./carousel-project-two";
-import ClientMain from "../../Assets/apoteku/main.png";
-
-function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header>
-        <ApotekU />
-      </Modal.Header>
-      <Modal.Body>
-        <h4>ApotekU</h4>
-        <p>
-          This is an e-commerce website to buy and sell medicines. On the client
-          side, users can order medicines. On the administrator side, the admin
-          can add, modify, and delete medicines.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+import ImgTop from "../../Assets/Python-logo-notext 1.svg";
 
 function ProjectOne() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -40,35 +14,25 @@ function ProjectOne() {
       <div class="col">
         <div class="card mb-3" style={myStyle}>
           <div class="card-header bg-transparent">
-            <img
-              src={ClientMain}
-              class="card-img-top"
-              id="openCarouselImage"
-            ></img>
-            <div class="middle" onClick={() => setModalShow(true)}>
-              <div class="text">Click Me</div>
-            </div>
+            <img src={ImgTop} class="card-img-top"></img>
           </div>
           <div class="card-body">
-            <h5 class="card-title">ApotekU</h5>
+            <h5 class="card-title">Hybrid CNN-SVM Model</h5>
             <p class="card-text">
-              This is an e-commerce website to buy and sell medicines. On the
-              client side, users can order med<span id="dots">... </span>
-              <a href="#" id="readMore" onClick={() => setModalShow(true)}>
-                Read More
-              </a>
+              This is a machine learning model to recognize fruit species by
+              combining CNN architecture and SVM model
             </p>
           </div>
           <div class="card-footer bg-transparent">
-            <a href="https://github.com/augiesas/ApotikU_Project_WFP.git" target="_blank">Find in GitHub</a>
+            <a
+              href="https://github.com/augiesas/FastAPI_TA.git"
+              target="_blank"
+            >
+              Find in GitHub
+            </a>
           </div>
         </div>
       </div>
-
-      <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
     </>
   );
 }

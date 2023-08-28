@@ -6,6 +6,11 @@ class Navbar extends Component {
       <div id="navbar">
         <div id="aboutMe" className="nav-button">
           <p>
+            <a href="/">Home</a>
+          </p>
+        </div>
+        <div id="aboutMe" className="nav-button">
+          <p>
             <a href="/aboutMe">About Me</a>
           </p>
         </div>

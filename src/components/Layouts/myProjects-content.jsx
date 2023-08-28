@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ProjectOne from "../Layouts/project-one.jsx";
 import ProjectTwo from "../Layouts/project-two.jsx";
+import ProjectThree from "../Layouts/project-three.jsx";
+import ProjectFour from "../Layouts/project-four.jsx";
 
 class MainContent extends Component {
   render() {
@@ -14,7 +16,9 @@ class MainContent extends Component {
         <div id="content-card" class="card-area">
           <div class="row row-cols-2 g-3">
             <ProjectOne />
-            <ProjectTwo />          
+            <ProjectTwo />
+            <ProjectThree />
+            <ProjectFour />
           </div>
         </div>
         <div class="gradient-overlay"></div>
