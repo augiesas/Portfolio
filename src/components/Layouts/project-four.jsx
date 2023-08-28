@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import React, { Component } from "react";
-import ApotekU from "./carousel-project-two";
-import ClientMain from "../../Assets/apoteku/main.png";
+import FruitRecogApp from "./carousel-project-four";
+import Main from "../../Assets/fruit_recognition_app/main.jpg";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -13,7 +13,7 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header>
-        <ApotekU />
+        <FruitRecogApp />
       </Modal.Header>
       <Modal.Body>
         <h4>Fruit Recognition App</h4>
