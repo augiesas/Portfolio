@@ -7,6 +7,7 @@ import MySQL from "../../Assets/mysql-logo-svgrepo-com 1.svg";
 import Python from "../../Assets/Python-logo-notext 1.svg";
 import Laravel from "../../Assets/laravel_icon_213860 1.svg";
 import CodeIgniter from "../../Assets/Codeigniter_icon.svg";
+import ReactJS from "../../Assets/React-icon.svg";
 
 class MainContent extends Component {
   render() {
@@ -26,6 +27,9 @@ class MainContent extends Component {
             </li>
             <li>
               <img src={JavaScript} width="74" height="74"></img>Java Script
+            </li>
+            <li>
+              <img src={ReactJS} width="74" height="74"></img>React.js
             </li>
           </ul>
         </div>
