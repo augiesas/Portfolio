@@ -41,7 +41,7 @@ function ProjectOne() {
         <div class="card mb-3" style={myStyle}>
           <div class="card-header bg-transparent">
             <img
-              src={ClientMain}
+              src={Main}
               class="card-img-top"
               id="openCarouselImage"
             ></img>
