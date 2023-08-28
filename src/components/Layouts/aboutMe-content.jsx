@@ -38,6 +38,9 @@ class MainContent extends Component {
                 <i class="bi bi-instagram"></i>
               </a>
             </li>
+            <li>
+              <i class="bi bi-telephone"></i> +62 856 5610 5142
+            </li>
           </ul>
         </div>
       </div>
