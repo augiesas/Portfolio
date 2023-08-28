@@ -12,7 +12,7 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header>
+      <Modal.Header className="modal-header">
         <FruitRecogApp />
       </Modal.Header>
       <Modal.Body>
@@ -42,7 +42,7 @@ function ProjectOne() {
           <div class="card-header bg-transparent">
             <img
               src={Main}
-              class="card-img-top"
+              class="card-img-top vertical-img"
               id="openCarouselImage"
             ></img>
             <div class="middle" onClick={() => setModalShow(true)}>
@@ -61,7 +61,7 @@ function ProjectOne() {
           </div>
           <div class="card-footer bg-transparent">
             <a
-              href="https://github.com/augiesas/ApotikU_Project_WFP.git"
+              href="https://github.com/augiesas/TA_160419022.git"
               target="_blank"
             >
               Find in GitHub

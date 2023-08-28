@@ -299,11 +299,18 @@ a {
   height: 200px;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 5px;
+}
+
+.vertical-img {
+  width: 40% !important;
 }
 
 .card-header {
   padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .custom-scrollbar-css,
@@ -467,4 +474,37 @@ a {
 .card,
 .card-header {
   border: 1px solid #755800 !important;
+}
+
+.modal-header {
+  /* border: 1px solid red; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.modal-header {
+  width: 100%;
+}
+
+.carousel {
+  /* border: 1px solid cyan; */
+  width: 100%;
+}
+
+.img-item {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.carousel-caption {
+  /* -webkit-text-stroke: 1px white; */
+  color: black;
+  text-shadow:
+    3px 3px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
