@@ -8,6 +8,8 @@ import Python from "../../Assets/Python-logo-notext 1.svg";
 import Laravel from "../../Assets/laravel_icon_213860 1.svg";
 import CodeIgniter from "../../Assets/Codeigniter_icon.svg";
 import ReactJS from "../../Assets/React-icon.svg";
+import Java from "../../Assets/icons8-java.svg";
+import CSharp from "../../Assets/c--4.svg";
 
 class MainContent extends Component {
   render() {
@@ -37,16 +39,27 @@ class MainContent extends Component {
           <p>Back - End</p>
           <ul>
             <li>
-              <img src={MySQL}></img>MySQL
+              <img src={MySQL} width="74" height="74"></img>MySQL
             </li>
             <li>
-              <img src={Python}></img>Python
+              <img src={Python} width="74" height="74"></img>Python
             </li>
             <li>
-              <img src={Laravel}></img>Laravel
+              <img src={Laravel} width="74" height="74"></img>Laravel
             </li>
             <li>
-              <img src={CodeIgniter}></img>Code Igniter
+              <img src={CodeIgniter} width="74" height="74"></img>Code Igniter
+            </li>
+          </ul>
+        </div>
+        <div class="others-expertise">
+          <p>Others</p>
+          <ul>
+            <li>
+              <img src={Java} width="74" height="74"></img>Java
+            </li>
+            <li>
+              <img src={CSharp} width="74" height="74"></img>C#
             </li>
           </ul>
         </div>
