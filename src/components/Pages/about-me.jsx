@@ -1,9 +1,10 @@
 import React, { Component, useEffect } from "react";
-import Navbar from "../Layouts/navbar.jsx";
+import NavbarLayout from "../Layouts/navbar.jsx";
 import Content from "../Layouts/aboutMe-content.jsx";
 import Back from "../Layouts/back-btn.jsx";
 import $ from "jquery";
 import SvgWithClickableElement from "../Backgrounds/svg-component-variation.jsx";
+import PageButtonsPhone from "../Backgrounds/svg-component-variation-phone.jsx";
 
 class AboutMe extends Component {
   jQueryCode = () => {
@@ -19,9 +20,11 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="main-container">
-        <Navbar />
+        <NavbarLayout />
         <SvgWithClickableElement />
-
+        <div class="svg-wrapper-phone">
+          <PageButtonsPhone />
+        </div>
         <section className="main-section">
           <div class="child-main">
             <div className="content-area">
